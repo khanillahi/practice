@@ -1,0 +1,944 @@
+body{
+   margin: 0px;
+   padding: 0%;
+   font-family: sans-serif;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.first-nav{
+   height: 30px;
+   background-color: rgb(150, 43, 43);
+}
+p{
+   text-align: center;
+   color: white;
+   padding: 5px;
+}
+
+.nav{
+   height: 48px;
+   background-color: rgba(0, 0, 0, 0.651); 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#logo{
+   background-size: cover;
+   width: 100px;
+   height: 40px;
+   margin-left: 29px;
+   margin-top: 4px;
+}
+.search{
+   border: none;
+   height: 30px;
+   width:250px;
+   border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(252, 249, 249);
+}
+i{
+   color: white;
+}
+.sec-nav{
+   height: 100px;
+   background-color: rgba(0, 0, 0, 0.815);
+}
+.contant{
+   /* width: 100vh; */
+   display: flex;
+   height: 600px;
+   background-color: rgb(190, 145, 86);
+}
+.carosel{
+   margin-top: 25px;
+   margin-left: 70px;
+   height: 550px;
+   width: 1200px;
+   background-image: url(fashion-sale-with-discount-template_23-2148936503.avif);
+   background-size: cover;
+   animation-name: first;
+   animation-duration: 20s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+@keyframes first{
+   0%{
+   background-image: url(fashion-sale-with-discount-template_23-2148936503.avif);
+
+   }
+   25%{
+      background-image: url(24846_H-8901030985782.webp);
+   
+ }
+   50%{
+         background-image: url(23657_H-8901030983429.webp);
+      
+ }
+    75%{
+            background-image: url(cont.jpg);
+         
+ }
+ 100%{
+   background-image: url(for-contant.jpg);
+
+   }
+}
+
+#one{
+  height: 550px;
+  width: 1320px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+.net-nav{
+   display: flex;
+   height: 100px;
+   background-color: black;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+#lake{
+   text-decoration: none;
+   color: white;
+   font-size: 45px;
+   margin-right: 700px;
+  padding: 20px 10px 15px;
+
+
+}
+.new-but{
+   margin-top: 8px;
+   font-size: 20px;
+   background-color: burlywood;
+   color: black;
+  
+}
+button{
+   height: 50px;
+}
+/* ul{
+   display: flex;
+   justify-content: space-around;
+
+}
+.first-list{
+   margin-left: 520px;
+   text-decoration: none;
+}
+.last-list{
+   margin-right: 520px;
+   text-decoration: none; */
+
+
+hr{
+   width: 400px;
+}
+h3{
+text-align: center;
+font-size: 22px;
+}
+h5{
+   text-align: center;
+   font-size: 17px;
+   }
+.btn{
+  text-align: center;
+}
+.but{
+   width: 150px;
+   border-bottom-right-radius: 45px;
+   border-top-right-radius: 45px;
+   border-top-left-radius: 45px;
+   border-bottom-left-radius: 45px;
+}
+.but:hover{
+   background-color: black;
+   color: white;
+}
+
+/* mainmainmainmain////////////////////////////////////////////////////////////////// */
+.images{
+   display: flex;
+   
+}
+.main{
+   width: 300px;
+   height: 500px;
+   border: 3px solid rgb(248, 208, 159);
+   border-radius: 10px;
+   margin-right: 5px;
+   margin-left: 21px;
+}
+.forimg{
+   height: 270px;
+   width: 300px;
+   background-image: url(29779_H-8901030996917.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.secforimg{
+   background-image: url(AllBaseSet.webp);
+   background-size: cover;
+}
+.thirforimg{
+   background-image: url(29609_H-8901030965319.webp);
+   background-size: cover;
+}.forforimg{
+   background-image: url(24846_H-8901030985782.webp);
+   background-size: cover;
+}
+.bit{
+    margin-top: 245px;
+    background-color: burlywood;
+    height: 22px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.about{
+   height: 227px;
+   width: 300px;
+   background-color: black;
+   margin-top: 3px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.first{
+   padding-top: 14px;
+   margin-left: 14px;
+}
+.para{
+   color: white;
+   padding: 5px;
+   margin-left: 14px;
+   margin-top: 16px;
+
+}
+.paratwo{
+   padding: 5px;
+   margin-left: 14px;
+   color: white;
+   margin-top: 73px; 
+}
+
+.shade{
+   padding: 5px;
+   margin-left: 14px;
+   background-color: rgb(170, 113, 38);
+   /* margin-top: 77px; */
+   width: 268px;
+   height: 40px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   
+}
+.shade:hover{
+   background-color: rgb(160, 100, 21);
+}
+#btnshade{
+   width: 170px;
+   height: 45px;
+   background-color: rgb(252, 250, 247);
+   border-radius: 40px;
+   margin-left: 600px;
+   margin-top: 20px;
+}
+#btnshade:hover{
+   background-color: rgb(253, 242, 237);
+
+}
+/* mainmainmainmain end end end end end end////////////////////////////////////////////////////////////////// */
+
+.for{
+   height: 140px;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   color: rgb(226, 183, 127);
+   
+}
+h3{
+   text-align: center;
+   padding: 0px 40px;
+   padding-top: 29px;
+   font-size: 24px;
+   text-transform: uppercase;
+}
+p{
+   color: rgb(226, 177, 114);
+   display: block;
+   margin-bottom: 30px;
+
+}
+.one{
+   width: 400px;
+   height: 550px;
+   background-size: cover;
+   border: 3px solid black;
+   background-color: blue;
+}
+/* face products *//* face products *//* face products */
+/* face products *//* face products *//* face products */
+
+.images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ .imgone{
+   width: 300px;
+   height: 500px;
+   background-image: url(new.jpg);
+   background-size: cover;
+   border: 3px solid rgb(190, 154, 106);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-top: 20px;
+   margin-left: 10px;
+   padding: 10px;
+ }
+ .imgtwo{
+   width: 300px;
+   height: 500px;
+   background-image: url(gettyimages.jpg);
+   background-size: cover;
+   border: 3px solid rgb(190, 154, 106);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding: 10px;
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ .imagethree{
+   width: 300px;
+   height: 500px;
+   background-image: url(gettyimages-three.jpg);
+   background-size: cover;
+   border: 3px solid rgb(190, 154, 106);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding: 10px;
+   margin-left: 10px;
+   margin-top: 20px;
+ }
+.explore{
+   width: 110px;
+   height: 35px;
+   background-color: rgb(229, 202, 166);
+   border-radius: 40px;
+   margin-top: 460px;
+   margin-left: 95px;
+}
+/* now start lakeme lipstic area now here */
+/* now start lakeme lipstic area now here */
+/* now start lakeme lipstic area now here */
+/* now start lakeme lipstic area now here */
+h2{
+   text-align: center;
+   margin-top: 20px;
+}
+h6{
+   color: white;
+   margin-left: 20px;
+}
+.strike{
+   color: red;
+}
+.lipstic{
+   display: flex;
+   
+}
+.lipproduct{
+   width: 300px;
+   height: 500px;
+   border: 3px solid rgb(248, 208, 159);
+   border-radius: 10px;
+   margin-right: 5px;
+   margin-left: 21px;
+}
+.lipone{
+   height: 270px;
+   width: 300px;
+   background-image: url(lip-one.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.liptwo{
+   height: 270px;
+   width: 300px;
+   background-image: url(lip-two.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.lipthree{
+   height: 270px;
+   width: 300px;
+   background-image: url(lip-three.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.lipfour{
+   height: 270px;
+   width: 300px;
+   background-image: url(lip-four.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.bittan{
+    margin-top: 245px;
+    background-color: burlywood;
+    height: 22px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bittan:hover{
+   background-color: rgb(197, 156, 101);
+}
+.about{
+   height: 227px;
+   width: 300px;
+   background-color: black;
+   padding-bottom: 3px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.first{
+   padding-top: 14px;
+   margin-left: 14px;
+}
+.rsone{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.rstwo{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.rsthree{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.rsfour{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.paraone{
+   padding: 5px;
+   margin-left: 14px;
+   color: white;
+   margin-top: 30px;
+}
+.parafive{
+   padding: 5px;
+   margin-left: 14px;
+   color: white;
+   margin-top: 30px;
+}
+.parathree{
+   padding: 5px;
+   margin-left: 14px;
+   color: white;
+   margin-top: 30px;
+}
+.parafour{
+   padding: 5px;
+   margin-left: 14px;
+   color: white;
+   margin-top: 30px;
+}
+.shade{
+   padding: 5px;
+   margin-left: 14px;
+   background-color: rgb(170, 113, 38);
+   /* margin-top: 77px; */
+   width: 268px;
+   height: 40px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   
+}
+.shade:hover{
+   background-color: rgb(160, 100, 21);
+}
+#btnshade{
+   width: 170px;
+   height: 45px;
+   background-color: rgb(252, 250, 247);
+   border-radius: 40px;
+   margin-left: 600px;
+   margin-top: 20px;
+}
+#btnshade:hover{
+   background-color: rgb(253, 230, 199);
+
+}
+/* now end lakeme lipstic area now here */
+/* now end lakeme lipstic area now here */
+/* now end lakeme lipstic area now here */
+
+/* NOW START DEAL AREA */
+.bestdeal{
+   display: flex;
+   
+}
+.deal{
+   width: 300px;
+   height: 500px;
+   border: 3px solid rgb(248, 208, 159);
+   border-radius: 10px;
+   margin-right: 5px;
+   margin-left: 21px;
+}
+.dealone{
+   height: 270px;
+   width: 300px;
+   background-image: url(deal-one.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.dealtwo{
+   height: 270px;
+   width: 300px;
+   background-image: url(deal-two.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.dealthree{
+   height: 270px;
+   width: 300px;
+   background-image: url(deal-three.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.dealfour{
+   height: 270px;
+   width: 300px;
+   background-image: url(deal-four.webp);
+   background-size: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.about{
+   height: 227px;
+   width: 300px;
+   background-color: black;
+   padding-bottom: 3px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.first{
+   padding-top: 14px;
+   margin-left: 14px;
+}
+.rsone{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.rstwo{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.rsthree{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+.rsfour{
+   color: white;
+   margin-left: 14px;
+   margin-top: 16px;
+}
+
+.shadess{
+   padding: 5px;
+   margin-left: 14px;
+   background-color: rgb(170, 113, 38);
+   margin-top: 20px;
+   width: 268px;
+   height: 40px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   
+}
+.shadess:hover{
+   background-color: rgb(160, 100, 21);
+}
+#btnshade{
+   width: 170px;
+   height: 45px;
+   background-color: rgb(252, 250, 247);
+   border-radius: 40px;
+   margin-left: 600px;
+   margin-top: 20px;
+}
+#btnshade:hover{
+   background-color: rgb(253, 230, 199);
+
+}
+/* NOW END DEAL AREA */
+.banner{
+   margin-top: 18px;
+}
+.baner{
+   width: 1340px;
+   height: 300px;
+}
+/* banner area start */
+
+/* by categeroy start */
+.categry{
+   margin-top: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+.horiz{
+   width: 300px;
+   height: 2px;
+   background-color: black;
+   margin-bottom: 0px;
+}
+.category{
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-bottom: 0.1rem;
+}
+.hsix{
+   color: rgb(172, 161, 161);
+   margin-top: 0.1rem;
+}
+.categryitem{
+   display: flex;
+   justify-content: space-around;
+}
+.base{
+   width: 310px;
+   height: 400px;
+   border: 3px solid rgb(194, 153, 100);
+   border-radius: 18px;
+} 
+.products{
+   width: 300px;
+   height: 360px;
+}
+
+
+/* by categeroy end */
+
+/* top 10 area start */
+.ancor{
+   background-color: black;
+   align-items: center;
+   font-size: 22px;
+   text-align: center;
+   height: 38px;
+   border-top: 3px solid rgb(194, 153, 100);
+   border-bottom-right-radius: 18px;
+   border-bottom-left-radius: 18px;
+}
+.anc{
+   color: white;
+   font-weight: 700;
+}
+.topten{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.border{
+   width: 320px;
+   margin-left: 30px;
+   height: 520px;
+   border: 3px solid rgb(194, 154, 100);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.topproduct{
+   height: 300px;
+   border-bottom: 3px solid rgb(194, 154, 100);
+   
+}
+.topabout{
+   height: 218px;
+   background-color: black;
+   color: white;
+}
+#topimg{
+   width: 318px;
+   height: 298px;
+   
+}
+.name{
+   margin-left: 20px;
+   font-size: 22px;
+}
+.price{
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.topstrike{
+   color: white;
+}
+.topsave{
+   margin-top: 15px;
+   margin-left: 20px;
+   font-size: smaller;
+}
+.topshade{
+   margin-top: 36px;
+   margin-left: 20px;
+
+}
+.topbtn{
+   height: 40px;
+   margin-top: 7px;
+   width: 280px;
+   margin-left: 20px;
+   border-radius: 20px;
+   background-color: rgb(194, 154, 100);
+}
+.topbtn:hover{
+   background-color: rgb(156, 126, 86);
+}
+.topshadetwo{
+   margin-left: 20px;
+   margin-top: 66px;
+}
+#btnshade:hover{
+   background-color: rgb(250, 243, 233);
+}
+/* top 10 area end */
+/*  new and third banner start */
+.newbannerimg{
+   height: 500px;
+   text-align: center;
+   width: 1320px;
+   margin-left: 15px;
+}
+/*  new and third banner end */
+
+/* skin product start  */
+.skinhead{
+margin-top: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.hor{
+   width: 320px;
+   height: 2px;
+   background-color: black;
+   margin-bottom: 0px;
+}
+.care{
+   color: black;
+}
+.mainskinarea{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.skinborder{
+   width: 320px;
+   height: 400px;
+   border: 3px solid rgb(184, 154, 100);
+   border-radius: 15px;
+}
+.skinimg{
+   height: 359px;
+   border-bottom: 3px solid rgb(184, 154, 100);
+}
+#skinimages{
+   width: 320px;
+   height: 358px;
+   border-top-left-radius: 14px;
+   border-top-right-radius: 14px;
+}.firstskinproductname{
+   height: 40px;
+   background-color: #7c6d59;
+   border-bottom-left-radius: 14px;
+   border-bottom-right-radius: 14px;
+   text-align: center;
+   text-align: center;  
+   font-size: 20px;
+}
+.secondskinproductname{
+   height: 40px;
+   background-color: #ca6337;;
+   border-bottom-left-radius: 14px;
+   border-bottom-right-radius: 14px;
+   text-align: center;
+   font-size: 20px;
+   text-align: center;  
+}
+.thirdskinproductname{
+   height: 40px;
+   background-color: #74629d;;
+   border-bottom-left-radius: 14px;
+   border-bottom-right-radius: 14px;
+   text-align: center;
+   font-size: 20px;
+   text-align: center;  
+}
+.lastskinproductname{
+   height: 40px;
+   background-color: #4ba0ba;;
+   border-bottom-left-radius: 14px;
+   border-bottom-right-radius: 14px;
+   text-align: center;  
+   font-size: 20px;
+   text-align: center;
+}
+/* skin product end  */
+/* recommended start */
+.bestdealflex{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.recom{
+ width: 270px;
+ height: 200px;
+}
+/* recommended end */
+/* try befor you use star  */
+.try{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.forborder{
+   width: 360px;
+   height: 450px;
+   border: 3px solid rgb(194, 164, 100);
+   border-radius: 15px;
+}
+.tryimg{
+   width: 350px;
+   height: 300px;
+   padding: 10px;
+}
+#iconss{
+   font-size: 25px;
+}
+.trybtn{
+   height: 40px;
+   width: 300px;
+   background-color: #901913;
+   color: white;
+   margin-left: 30px;
+   border-radius: 30px;
+   font-size: 16px;
+}
+.trytex{
+   color: black;
+   /* font-size: 25px; */
+}
+/* try befor you use end  */
+
+/* join the club start */
+.join{
+   display: inline-flex;
+}
+.club{
+   width: 180px;
+   height: 180px;
+   
+   margin-left: 5px;
+}
+.clubphoto{
+   width: 178px;
+   height: 178px;
+}
+.look{
+   width: 300px;
+   height: 40px;
+   background-color: #901913;
+   border-radius: 30px;
+   color: white;
+   margin-left: 550px;
+   margin-top: 15px;
+}
+.look:hover{
+   background-color: whitesmoke;
+   color: black;
+}
+/* join the club end */
+/* end end end end end end end end end  */
+/* end end end end end end end end end  */
+
+
+/* footer start now footer footer */
+.foot{
+   display: flex;
+}
+.footerr{
+ width: 800px;
+ margin-top: 30px;
+ padding: 10px;
+ height: 1600px;
+ background-color: black;
+ color: white;
+}
+.foote{
+width: 590px;
+padding: 10px;
+height: 1600px;
+background-color: black;
+ margin-top: 30px;
+ color: white;
+}
+.textt{
+   color: white;
+}
+h4{
+   margin-left: 60px;
+}
+.lakmelogoo{
+   align-items: center;
+   width: 100%;
+   height: 200px;
+   background-color: black;
+}
+.lakmelogo{
+   margin-left: 550px;
+}
+
+/* footer end now footer footer */
+
